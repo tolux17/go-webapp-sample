@@ -17,6 +17,8 @@ pipeline {
 
             steps {
                 
+                git "https://github.com/tolux17/go-webapp-sample.git"
+                
 
                 sh 'go test ./...'
             }
